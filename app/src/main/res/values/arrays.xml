@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 作用域：只 Hook MediaProvider -->
+    <string-array name="xposed_scope">
+        <item>com.android.providers.media</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+app/build/
+local.properties
+
+# Android
+*.apk
+*.aab
+captures/
+.idea/
+*.iml
+.DS_Store
+
+# Keystore —— 注：本仓库为 private，签名文件 yixiangren.jks 需一并提交，故不排除

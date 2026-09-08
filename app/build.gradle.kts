@@ -60,6 +60,6 @@ android {
 }
 
 dependencies {
-    // LSPosed Xposed API (provided, 不打进 APK，运行时由 LSPosed 提供)
-    compileOnly("de.robv.android.xposed:api:82")
+    // Xposed API 以本地 stub 形式提供（见 app/src/main/java/de/robv/android/xposed/），
+    // 运行时由 LSPosed 注入真实实现，无需外部依赖。
 }
